@@ -4,6 +4,7 @@
 	"private": true,
 	"scripts": {
 		"dev": "vite dev",
+		"backend": "./pocketbase serve",
 		"build": "vite build",
 		"preview": "vite preview",
 		"lint": "prettier --check .",
