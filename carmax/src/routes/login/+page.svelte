@@ -3,11 +3,7 @@
 </script>
 
 <div class="flex flex-col items-center h-full w-full">
-<<<<<<< HEAD
 	<h2 class="mt-2 text-center text-3xl fon-bold tracking-right text-base-content">
-=======
-	<h2 class="mt-2 text-center text-3xl font-bold tracking-tight text-base-content">
->>>>>>> 48381b85b8c2ab25bab4af5394935adbad64dc6a
 		Login to your account
 	</h2>
 	<p class="text-center mt-1">
@@ -15,20 +11,12 @@
 			>register</a
 		> if you don't already have an account.
 	</p>
-<<<<<<< HEAD
-
-=======
->>>>>>> 48381b85b8c2ab25bab4af5394935adbad64dc6a
 	<form action="?/login" method="POST" class="flex flex-col items-center space-y-2 w-full pt-4">
 		<div class="form-control w-full max-w-md">
 			<label for="email" class="label font-medium pb-1">
 				<span class="label-text">Email</span>
 			</label>
-<<<<<<< HEAD
 			<input type="text" name="email" id="email" class="input input-bordered w-full max-w-md" />
-=======
-			<input type="email" name="email" id="email" class="input input-bordered w-full max-w-md" />
->>>>>>> 48381b85b8c2ab25bab4af5394935adbad64dc6a
 		</div>
 
 		<div class="form-control w-full max-w-md">
@@ -43,27 +31,6 @@
 			/>
 		</div>
 
-<<<<<<< HEAD
-		<div class="w-full max-w-md pt2">
-			<button type="submit" class="btn btn-primary w-full">Login</button>
-		</div>
-
-		{#if form?.notVerified}
-			<div role="alert" class="alert alert-error w-full max-w-md">
-				<svg
-					xmlns="http://www.w3.org/2000/svg"
-					class="stroke-current shrink-0 h-6 w-6"
-					fill="none"
-					viewBox="0 0 24 24"
-					><path
-						stroke-linecap="round"
-						stroke-linejoin="round"
-						stroke-width="2"
-						d="M10 14l2-2m0 0l2-2m-2 2l-2-2m2 2l2 2m7-2a9 9 0 11-18 0 9 9 0 0118 0z"
-					/></svg
-				>
-				<span>You must verify your email before you can log in.</span>
-=======
 		<div class="w-full max-w-md">
 			<a
 				href="/reset-password"
@@ -93,7 +60,6 @@
 					>
 					<span>You must verify your email before you can login.</span>
 				</div>
->>>>>>> 48381b85b8c2ab25bab4af5394935adbad64dc6a
 			</div>
 		{/if}
 	</form>
