@@ -23,7 +23,7 @@
 					<!-- svelte-ignore a11y-label-has-associated-control -->
 					<label tabindex="0" class="btn btn-ghost btn-circle avatar">
 						<div class="w-10 rounded-full">
-							<img src={'https://placeimg.com/80/80/people'} alt="User avatar" />
+							<img src={'http://via.placeholder.com/80x80'} alt="User avatar" />
 						</div>
 					</label>
 					<ul
@@ -36,7 +36,7 @@
 							<a href="/my/settings">Settings</a>
 						</li>
 						<li>
-							<form actions="logout" method="POST">
+							<form actions="/logout" method="POST">
 								<button type="submit" class="w-full text-start">Logout</button>
 							</form>
 						</li>

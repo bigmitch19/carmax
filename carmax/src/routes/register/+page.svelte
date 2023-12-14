@@ -4,7 +4,7 @@
 	</h2>
 	<p class="text-center mt-1">
 		Or <a href="/login" class="text-primary font-medium hover:cursor-pointer hover:underline"
-			>sign in</a
+			>login</a
 		> if you already have an account.
 	</p>
 
