@@ -16,14 +16,21 @@
 			<label for="email" class="label font-medium pb-1">
 				<span class="label-text">Email</span>
 			</label>
-			<input type="email" name="email" class="input input-bordered w-full max-w-md" />
+			<input type="email" name="email" id="email" class="input input-bordered w-full max-w-md" />
 		</div>
+
 		<div class="form-control w-full max-w-md">
 			<label for="password" class="label font-medium pb-1">
 				<span class="label-text">Password</span>
 			</label>
-			<input type="password" name="password" class="input input-bordered w-full max-w-md" />
+			<input
+				type="password"
+				name="password"
+				id="password"
+				class="input input-bordered w-full max-w-md"
+			/>
 		</div>
+
 		<div class="w-full max-w-md">
 			<a
 				href="/reset-password"
